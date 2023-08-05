@@ -1,3 +1,6 @@
+/* Simple simulator that throws a dice (repeatedly) in any of four directions (one at a time) 
+See dice_puzzle.jpeg. */
+
 #include <stdio.h>
 
 /* Each transform string starts with the direction of the roll for  which it

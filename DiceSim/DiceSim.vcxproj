@@ -129,6 +129,15 @@
   <ItemGroup>
     <ClCompile Include="DiceSim.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DiceSim.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="dice_puzzle.jpeg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
